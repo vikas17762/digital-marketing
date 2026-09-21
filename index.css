@@ -1,0 +1,369 @@
+body {
+  padding-top: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  background-color: white;
+  color: #f2f2f2;
+  border: 2px solid #50c878;
+  border-radius: 20px;
+
+  width: 98%;
+}
+nav {
+  border: 1px solid #50c878;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 1px #50c878;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+  margin-left: 20px;
+}
+a:hover {
+  color: #39ff14;
+  text-decoration-line: underline;
+}
+.headerbtn {
+  background-color: darkgreen;
+  color: white;
+  border: 1px solid #50c878;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 20px;
+
+  transition-property: all;
+  transition-duration: 0.1s;
+  transition-delay: 0s;
+}
+.headerbtn:hover {
+  background-color: #50c878;
+  box-shadow: 0px 0px 10px 1px darkgreen;
+  text-decoration-line: underline;
+
+  scale: 1.05;
+}
+
+header img {
+  width: 50px;
+  height: 50px;
+
+  border-radius: 15px;
+}
+/* ==============================================================
+        HEADER
+        ============================================================ */
+
+/* ==============================================================
+        CONTAINER
+        ============================================================ */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.hello {
+  width: 30%;
+  margin-left: 20px;
+  padding: 20px;
+}
+
+.btn {
+  color: #39ff14;
+  border: 1px solid #50c878;
+
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  transition-property: all;
+  transition-duration: 0.1s;
+  transition-delay: 0s;
+}
+.btn:hover {
+  background-color: #39ff14;
+  color: white;
+  box-shadow: 0px 0px 10px 1px darkgreen;
+  text-decoration-line: underline;
+  scale: 1.05;
+}
+#p1 {
+  color: #88fc74;
+}
+#h4 {
+  color: #2e881e;
+  font-weight: bold;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 50px;
+}
+.imglogo {
+  width: 50%;
+}
+.imglogo img {
+  width: 75%;
+  height: 75%;
+  box-shadow: 0px 0px 10px 1px wheat;
+  border-radius: 10px;
+}
+p {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+/* ==============================================================
+        CONTAINER
+        ============================================================ */
+
+/* ==============================================================
+        CONTAINER2
+        ============================================================ */
+
+.container2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: black;
+  color: white;
+  gap: 30px;
+  padding: 10px;
+  border-radius: 10px;
+}
+#aboutme {
+  color: rgb(181, 163, 163);
+  font-size: 15px;
+}
+.about,
+.result,
+.audiance {
+  margin: 1px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px 1px darkgreen;
+  border-radius: 10px;
+}
+
+progress {
+  border: 0px;
+  width: 80%;
+  border-radius: 50px;
+  background-color: #333;
+  height: 8px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 1px darkgreen;
+}
+progress-bar {
+  height: 100%;
+  background-color: #00c853;
+}
+
+/* ==============================================================
+        CONTAINER2 end
+        ============================================================ */
+
+/* ==============================================================
+        CONTAINER3
+        ============================================================ */
+
+.conatianer3 {
+  padding: 30px;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+#section {
+  background-color: white;
+  border: 0.5px solid wheat;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+  box-shadow: 0px 0px 10px 1px #39ff14;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-delay: 0s;
+}
+#section:hover {
+  scale: 1.05;
+  box-shadow: 0px 0px 10px 1px #50c878;
+  cursor: pointer;
+}
+#section img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10%;
+}
+
+/* ==============================================================
+        CONTAINER3
+        ============================================================ */
+
+/* ==============================================================
+        CONTAINER4
+        ============================================================ */
+
+.container4 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: rgb(0, 21, 1);
+  gap: 20px;
+  padding: 30px;
+  margin: 20px;
+  color: rgb(130, 123, 123);
+  align-items: center;
+  border-radius: 10px;
+}
+.letsgrow {
+  display: flex;
+  gap: 5px;
+}
+#h1foot {
+  color: #39ff14;
+  text-shadow: 0px 0px 5px #b8f1ae;
+}
+#h4foot {
+  color: beige;
+  text-shadow: 0px 0px 5px #b8f1ae;
+}
+#pfoot {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* ==============================================================
+        CONTAINER4
+        ============================================================ */
+
+/* from inline css */
+
+#h1 {
+  color: #39ff14;
+  font-weight: 900;
+  font-size: 50px;
+  text-shadow: 0px 0px 10px #39ff14;
+}
+#h2 {
+  color: #50c878;
+}
+#arow {
+  color: #50c878;
+  font-weight: bolder;
+  font-size: 40px;
+  text-shadow: 0px 0px 10px #39ff14;
+}
+#underline {
+  text-decoration-line: underline;
+  text-decoration-color: wheat;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-delay: 0s;
+}
+#underline:hover {
+  text-decoration-color: rgb(239, 190, 100);
+}
+
+/* ============================================================
+           RESPONSIVE STYLES 
+           
+           ============================================================ */
+
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hello {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .imglogo {
+    width: 70%;
+    margin-top: 20px;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  #h1 {
+    font-size: 36px;
+  }
+  .container2 {
+    grid-template-columns: 1fr;
+  }
+  .services {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .container4 {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .letsgrow {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px;
+  }
+  header img {
+    width: 40px;
+    height: 40px;
+  }
+  nav {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+  nav a {
+    margin: 0 10px;
+    display: inline-block;
+  }
+  .headerbtn {
+    padding: 8px 14px;
+    font-size: 14px;
+  }
+  .services {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  h1 {
+    font-size: 28px;
+  }
+  #h1 {
+    font-size: 30px;
+  }
+  #arow {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .services {
+    grid-template-columns: 1fr;
+  }
+  .imglogo {
+    width: 90%;
+  }
+  .imglogo img {
+    width: 90%;
+    height: auto;
+  }
+  .hello {
+    width: 100%;
+    padding: 10px;
+    margin-left: 0;
+  }
+}
